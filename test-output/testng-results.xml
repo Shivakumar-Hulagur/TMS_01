@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-01T10:53:55 IST" name="Suite" finished-at="2023-10-01T10:55:43 IST" duration-ms="108063">
+    <groups>
+      <group name="regression">
+        <method signature="IT_Enquiry_03_Test.itEnquiryTest()[pri:0, instance:com.baseclassscripts.IT_Enquiry_03_Test@4b2bac3f]" name="itEnquiryTest" class="com.baseclassscripts.IT_Enquiry_03_Test"/>
+        <method signature="Manage_Bookings_2_Test.manageBookingsTest()[pri:0, instance:com.baseclassscripts.Manage_Bookings_2_Test@1ce24091]" name="manageBookingsTest" class="com.baseclassscripts.Manage_Bookings_2_Test"/>
+        <method signature="SMOKE_PACKAGE_09_Test.smokePageTest()[pri:0, instance:com.baseclassscripts.SMOKE_PACKAGE_09_Test@fbd1f6]" name="smokePageTest" class="com.baseclassscripts.SMOKE_PACKAGE_09_Test"/>
+        <method signature="ST_03_Test.st_03_Test()[pri:0, instance:com.baseclassscripts.ST_03_Test@ba2f4ec]" name="st_03_Test" class="com.baseclassscripts.ST_03_Test"/>
+        <method signature="TMS_AdminModel_ST_001_Test.adminSTtest()[pri:0, instance:com.baseclassscripts.TMS_AdminModel_ST_001_Test@49438269]" name="adminSTtest" class="com.baseclassscripts.TMS_AdminModel_ST_001_Test"/>
+        <method signature="TMS_AdminModel_ST_006_Test.adminST06Test()[pri:0, instance:com.baseclassscripts.TMS_AdminModel_ST_006_Test@1c1bbc4e]" name="adminST06Test" class="com.baseclassscripts.TMS_AdminModel_ST_006_Test"/>
+        <method signature="TMS_AdminModule_SmokeT_003_Test.adminSmokeTest()[pri:0, instance:com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test@55fe41ea]" name="adminSmokeTest" class="com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="SMOKE_PACKAGE_09_Test.smokePageTest()[pri:0, instance:com.baseclassscripts.SMOKE_PACKAGE_09_Test@fbd1f6]" name="smokePageTest" class="com.baseclassscripts.SMOKE_PACKAGE_09_Test"/>
+        <method signature="TMS_AdminModule_SmokeT_003_Test.adminSmokeTest()[pri:0, instance:com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test@55fe41ea]" name="adminSmokeTest" class="com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-10-01T10:53:55 IST" name="Test" finished-at="2023-10-01T10:55:43 IST" duration-ms="108063">
+      <class name="com.baseclassscripts.TMS_AdminModel_ST_006_Test">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.baseclassscripts.TMS_AdminModel_ST_006_Test@1c1bbc4e]" started-at="2023-10-01T10:55:16 IST" name="configBC" finished-at="2023-10-01T10:55:22 IST" duration-ms="5312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="adminST06Test()[pri:0, instance:com.baseclassscripts.TMS_AdminModel_ST_006_Test@1c1bbc4e]" started-at="2023-10-01T10:55:22 IST" name="adminST06Test" finished-at="2023-10-01T10:55:35 IST" duration-ms="13409" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='col-md-10 contact-left']/descendant::h4"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f69411a161d5b74f2a8e6322aba18402, findElement {using=xpath, value=//div[@class='col-md-10 contact-left']/descendant::h4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\DELLIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57096/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f69411a161d5b74f2a8e6322aba18402]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='col-md-10 contact-left']/descendant::h4"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f69411a161d5b74f2a8e6322aba18402, findElement {using=xpath, value=//div[@class='col-md-10 contact-left']/descendant::h4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\DELLIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57096/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f69411a161d5b74f2a8e6322aba18402
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+at com.baseclassscripts.TMS_AdminModel_ST_006_Test.adminST06Test(TMS_AdminModel_ST_006_Test.java:64)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminST06Test -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.baseclassscripts.TMS_AdminModel_ST_006_Test@1c1bbc4e]" started-at="2023-10-01T10:55:35 IST" name="configAC" finished-at="2023-10-01T10:55:36 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.baseclassscripts.TMS_AdminModel_ST_006_Test -->
+      <class name="com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test@55fe41ea]" started-at="2023-10-01T10:55:36 IST" name="configBC" finished-at="2023-10-01T10:55:41 IST" duration-ms="5297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="adminSmokeTest()[pri:0, instance:com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test@55fe41ea]" started-at="2023-10-01T10:55:41 IST" name="adminSmokeTest" finished-at="2023-10-01T10:55:43 IST" duration-ms="1756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminSmokeTest -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test@55fe41ea]" started-at="2023-10-01T10:55:43 IST" name="configAC" finished-at="2023-10-01T10:55:43 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.baseclassscripts.TMS_AdminModule_SmokeT_003_Test -->
+      <class name="com.baseclassscripts.ST_03_Test">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.baseclassscripts.ST_03_Test@ba2f4ec]" started-at="2023-10-01T10:54:35 IST" name="configBC" finished-at="2023-10-01T10:54:39 IST" duration-ms="4276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="st_03_Test()[pri:0, instance:com.baseclassscripts.ST_03_Test@ba2f4ec]" started-at="2023-10-01T10:54:39 IST" name="st_03_Test" finished-at="2023-10-01T10:54:58 IST" duration-ms="19196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- st_03_Test -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.baseclassscripts.ST_03_Test@ba2f4ec]" started-at="2023-10-01T10:54:58 IST" name="configAC" finished-at="2023-10-01T10:54:59 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.baseclassscripts.ST_03_Test -->
+      <class name="com.baseclassscripts.IT_Enquiry_03_Test">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.baseclassscripts.IT_Enquiry_03_Test@4b2bac3f]" started-at="2023-10-01T10:53:55 IST" name="configBS" finished-at="2023-10-01T10:53:55 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.baseclassscripts.IT_Enquiry_03_Test@4b2bac3f]" started-at="2023-10-01T10:53:55 IST" name="configBC" finished-at="2023-10-01T10:54:03 IST" duration-ms="7853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="itEnquiryTest()[pri:0, instance:com.baseclassscripts.IT_Enquiry_03_Test@4b2bac3f]" started-at="2023-10-01T10:54:03 IST" name="itEnquiryTest" finished-at="2023-10-01T10:54:16 IST" duration-ms="12873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itEnquiryTest -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.baseclassscripts.IT_Enquiry_03_Test@4b2bac3f]" started-at="2023-10-01T10:54:16 IST" name="configAC" finished-at="2023-10-01T10:54:16 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.baseclassscripts.IT_Enquiry_03_Test@4b2bac3f]" started-at="2023-10-01T10:55:43 IST" name="configAS" finished-at="2023-10-01T10:55:43 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.baseclassscripts.IT_Enquiry_03_Test -->
+      <class name="com.baseclassscripts.TMS_AdminModel_ST_001_Test">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.baseclassscripts.TMS_AdminModel_ST_001_Test@49438269]" started-at="2023-10-01T10:54:59 IST" name="configBC" finished-at="2023-10-01T10:55:04 IST" duration-ms="5087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="adminSTtest()[pri:0, instance:com.baseclassscripts.TMS_AdminModel_ST_001_Test@49438269]" started-at="2023-10-01T10:55:04 IST" name="adminSTtest" finished-at="2023-10-01T10:55:16 IST" duration-ms="12091" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Invalid Details}
+  (Session info: chrome=117.0.5938.92): Invalid Details
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed725d40e2526d1f1422df5e86658fa2, findElement {using=xpath, value=//a[text()='My Tour History']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\DELLIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57069/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed725d40e2526d1f1422df5e86658fa2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Invalid Details}
+  (Session info: chrome=117.0.5938.92): Invalid Details
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed725d40e2526d1f1422df5e86658fa2, findElement {using=xpath, value=//a[text()='My Tour History']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\DELLIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57069/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed725d40e2526d1f1422df5e86658fa2
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.baseclassscripts.TMS_AdminModel_ST_001_Test.adminSTtest(TMS_AdminModel_ST_001_Test.java:193)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminSTtest -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.baseclassscripts.TMS_AdminModel_ST_001_Test@49438269]" started-at="2023-10-01T10:55:16 IST" name="configAC" finished-at="2023-10-01T10:55:16 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.baseclassscripts.TMS_AdminModel_ST_001_Test -->
+      <class name="com.baseclassscripts.SMOKE_PACKAGE_09_Test">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.baseclassscripts.SMOKE_PACKAGE_09_Test@fbd1f6]" started-at="2023-10-01T10:54:28 IST" name="configBC" finished-at="2023-10-01T10:54:33 IST" duration-ms="4370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="demo()[pri:0, instance:com.baseclassscripts.SMOKE_PACKAGE_09_Test@fbd1f6]" started-at="2023-10-01T10:54:33 IST" name="demo" finished-at="2023-10-01T10:54:33 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="sample()[pri:0, instance:com.baseclassscripts.SMOKE_PACKAGE_09_Test@fbd1f6]" started-at="2023-10-01T10:54:33 IST" name="sample" finished-at="2023-10-01T10:54:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method signature="smokePageTest()[pri:0, instance:com.baseclassscripts.SMOKE_PACKAGE_09_Test@fbd1f6]" started-at="2023-10-01T10:54:33 IST" name="smokePageTest" finished-at="2023-10-01T10:54:35 IST" duration-ms="1973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokePageTest -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.baseclassscripts.SMOKE_PACKAGE_09_Test@fbd1f6]" started-at="2023-10-01T10:54:35 IST" name="configAC" finished-at="2023-10-01T10:54:35 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.baseclassscripts.SMOKE_PACKAGE_09_Test -->
+      <class name="com.baseclassscripts.Manage_Bookings_2_Test">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.baseclassscripts.Manage_Bookings_2_Test@1ce24091]" started-at="2023-10-01T10:54:16 IST" name="configBC" finished-at="2023-10-01T10:54:21 IST" duration-ms="4992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method signature="manageBookingsTest()[pri:0, instance:com.baseclassscripts.Manage_Bookings_2_Test@1ce24091]" started-at="2023-10-01T10:54:21 IST" name="manageBookingsTest" finished-at="2023-10-01T10:54:28 IST" duration-ms="6210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageBookingsTest -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.baseclassscripts.Manage_Bookings_2_Test@1ce24091]" started-at="2023-10-01T10:54:28 IST" name="configAC" finished-at="2023-10-01T10:54:28 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.baseclassscripts.Manage_Bookings_2_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
